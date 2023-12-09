@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+   
+}
+
+body {
+    background-color: pink;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+
+}
+
+
+
+li:hover {
+    background-color: rgba(165, 42, 42, 0.245);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    float: right;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+nav {
+    width: 70%;
+    left: 170px;
+    position: fixed;
+    height: 80px;
+    background-color: rgba(245, 245, 220, 0.696);
+    padding: 0 60px;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 10px;
+
+    
+    
+}
+
+nav h1 {
+    margin-top: 25px;
+   
+
+}
+
+.gambar article {
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 50px;
+    
+}
+
+.gambar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.gambar-aside {
+    margin-top: 200px;
+    margin-right: 120px;
+    border-radius: 70px;
+    padding-bottom: 20px;
+}
+ 
+.bebas {
+    background-color: beige;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.sando {
+    width: 100px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin:  0px 200px 0px 200px;
+    border-radius: 0px 0px 12px 12px;
+   
+}
+
+.a1 {
+    margin: 20px;
+    height: 300px;
+    width: 200px;
+    background-color: peachpuff;
+    border-radius: 20px;
+    flex-grow: 100;
+    text-align: center;
+
+}
+
+.i1 {
+    width: 240px;
+    border-radius: 20px;
+}
+
+.judul {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.ketiga {
+        background-color: beige;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        display: flex;
+       
+
+}
+
+.stob {
+    width: 300px;
+    margin: 10px 100px 10px 100px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px  peachpuff;
+}
+
+.teks {
+    margin-top: 30px;
+}
+
+.buatp {
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
+
+.buath {
+    font-size: 40px;
+  
+}
+
+.btn-abt {
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 8px 16px 8px 16px;
+    margin-top: 15px;
+}
+
+.btn-abt:hover {
+    background-color: peachpuff;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+footer {
+    background-color: whitesmoke;
+    padding: 80px;
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.footer-contents h4 {
+    font-size: 20px;
+}
+
+.footer-contents p{
+    margin: 20px 50px 20px 0px;
+}
+
+.footer-contents li {
+    margin: 20px 50px 20px 0px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.footer-contents a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-abt1 {
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 8px 16px 8px 16px;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.btn-abt1:hover {
+    background-color: peachpuff;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
